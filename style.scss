@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    // só pro fundo branco não machucar meus olhos enquanto faço o código
+    //background-color: rgb(146, 127, 197);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoHeader {
+    display: flex;
+    height: 50px;
+    width: 50vw;
+    justify-content: space-between;
+    margin: 35px;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-items: center;
+
+    img {
+        width: 245px;
+        margin-bottom: 30px;
+    }
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin-right: 30px;
+
+    .botões {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 33px;
+
+        ul {
+            display: flex;
+            width: 80%;
+            justify-content: space-around;
+            list-style: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+
+            a {
+                color: #4B5563;
+                text-decoration: none;
+            }
+        }
+
+        #btn1 {
+            background-color: #16A34A;
+            border: solid 1px #21C05C;
+            border-radius: 6px;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 17px;
+            width: 25%;
+            height: 60px;
+        }
+
+        #btn1:hover {
+            background-color: #21C05C;
+            cursor: pointer;
+        }
+    }
+}
+
+hr {
+    color: #B4AEAE;
+    width: 90vw;
+    margin-left:35px;
+    margin-right: 35px;
+}
