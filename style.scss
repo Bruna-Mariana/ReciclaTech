@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -90,6 +90,101 @@ header {
 hr {
     color: #B4AEAE;
     width: 90vw;
-    margin-left:35px;
+    margin-left: 35px;
     margin-right: 35px;
+}
+
+.part1 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+    //.img1 {background-color: rgb(104, 192, 192);}
+}
+
+.textos {
+    //background-color: #16A34A;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .titulos {
+        display: flex;
+        flex-direction: column;
+        //background-color: rgb(168, 186, 202);
+        height: 250px;
+        gap: 15px;
+    }
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 62px;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        color: #4B5563;
+    }
+}
+
+.botões2 {
+    //background-color: #a39a16;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    height: 100px;
+    width: 40vw;
+
+    #btn2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #16A34A;
+        border: solid 1px #21C05C;
+        border-radius: 6px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        width: 230px;
+        height: 62px;
+    }
+
+    #btn3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: white;
+        border: solid 1px #2563EB;
+        border-radius: 6px;
+        color: #2563EB;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        width: 230px;
+        height: 62px;
+    }
+
+    #btn2:hover {
+        background-color: #21C05C;
+        cursor: pointer;
+    }
+
+    #btn3:hover {
+        background-color: #eef3fc;
+        cursor: pointer;
+    }
 }
